@@ -1,0 +1,19 @@
+package org.child1.interfaces.defaultstaticmulti;
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        Car car= new Car();
+        car.run();
+        car.show();
+//        as 2 default so again prob of multiple inheritence
+//        , so we need to override it to resolve that
+        Engine.display();
+//        only by interface name you can call static method
+//        as static method are not inherited to the implementing class.
+//        this is a designer's choice to keep the static method as a
+//        utility(helper) method
+//        so this also resolves te issue of multiple inheritence so less error prone
+    }
+}
