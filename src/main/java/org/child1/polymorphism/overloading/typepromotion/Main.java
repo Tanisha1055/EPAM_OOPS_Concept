@@ -19,4 +19,10 @@ public class Main {
 
 //    in type promotion more specific is preferred over more generic
 //    in type promotion widening(int->long) is preferred over boxing(int->Integer)
+
+    //Type promotion (also called implicit type conversion or automatic type conversion) is a concept
+    //in Java where a value of a smaller data type is automatically converted to a larger data type
+    //during operations, without explicit casting by the programmer. Especially when the matching one is
+    //not found.
+    //byte → short → int → long → float → double
 }

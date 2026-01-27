@@ -14,15 +14,10 @@ class Student{
         this.marks=84;
     }
 
-}//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+}
 
-
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
 //        Student students[]=new Student[5];
 //        System.out.println(Arrays.toString(students));
@@ -40,5 +35,10 @@ public class Main {
             System.out.println("Hello!greetings");
         }
 
+        //Object-Oriented Programming (OOP) is a programming style that organizes code into objects,
+        //which are instances of classes. Each object represents a real-world entity and contains data
+        //(fields or attributes) and behavior (methods or functions).
+       //Class:A blueprint for creating objects. It defines the data and behavior.
+       //Object:An instance of a class. It has its own values for the data defined in the class.
 
 }

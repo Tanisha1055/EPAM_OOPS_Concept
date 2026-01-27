@@ -11,5 +11,7 @@ public class Main {
 
         //Covariant return type allows an overridden
         // method to return a subtype of the original method’s return type.
+
+        //the return type is of the class only, the rest of the thing is similar to dynamic dispatch.
     }
 }
