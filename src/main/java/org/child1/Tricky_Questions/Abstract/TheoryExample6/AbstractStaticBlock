@@ -1,0 +1,4 @@
+Can we have a static block inside an abstract class?
+
+✅ Answer: Yes. Static blocks in abstract classes execute when the class is loaded, even if the class is
+abstract.

@@ -1,0 +1,4 @@
+Can we have an instance block inside an abstract class?
+
+✅ Answer: Yes. Abstract classes can have instance blocks. They run whenever a concrete subclass is
+instantiated.
