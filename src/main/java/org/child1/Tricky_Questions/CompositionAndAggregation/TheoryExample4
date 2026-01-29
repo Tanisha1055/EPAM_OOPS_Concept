@@ -1,0 +1,20 @@
+Q5. Why is composition preferred over inheritance?
+
+Expected answer:
+
+“Because composition provides better flexibility and avoids tight coupling.”
+
+Reasons:
+In inheritance, coupling is strong and static:
+Child class cannot exist without parent
+Any change in parent can break child
+You are forced to inherit all behaviors, even ones you may not want
+In composition, coupling is weaker and more controlled:
+The parent (container) chooses which objects to use
+Objects can be swapped, replaced, mocked
+You can use interfaces to reduce coupling even more
+
+“Composition does involve coupling because one class uses another, but it provides looser and more
+flexible coupling than inheritance. With composition, we can easily swap, extend, or mock dependencies
+without affecting the container class, whereas inheritance creates a rigid relationship that is harder
+to change.”

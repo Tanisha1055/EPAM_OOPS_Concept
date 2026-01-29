@@ -1,0 +1,8 @@
+1. Can an abstract class have a constructor?
+
+Answer: Yes.
+
+Why:
+Constructors are used to initialize state when a subclass object is created.
+Abstract classes cannot be instantiated directly, but their constructors do execute during subclass
+instantiation.

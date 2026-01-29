@@ -1,0 +1,6 @@
+10. Can a child class reduce the visibility of an overridden method?
+
+Answer: No.
+
+Why:
+That would break polymorphism and access guarantees.

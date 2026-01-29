@@ -1,0 +1,8 @@
+4. Can a constructor be final or static?
+
+Answer: No.
+
+Why:
+
+final → cannot be overridden (constructors aren’t overridden anyway)
+static → constructors need instances; static belongs to class

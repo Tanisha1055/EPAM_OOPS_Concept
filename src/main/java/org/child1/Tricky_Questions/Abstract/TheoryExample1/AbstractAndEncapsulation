@@ -1,0 +1,12 @@
+Q1. Difference between Abstraction and Encapsulation?
+
+Expected points:
+
+Abstraction	                                      Encapsulation
+Hides implementation	                       Hides data
+Achieved using abstract class/interface	       Achieved using private + getters/setters
+Focus: what	                                   Focus: how
+
+
+👉 Interview line:
+“Abstraction hides complexity, encapsulation protects data.”

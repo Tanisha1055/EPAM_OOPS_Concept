@@ -1,0 +1,7 @@
+Q3. Difference between Aggregation and Composition?
+
+Aggregation	                       Composition
+
+Weak relationship	               Strong relationship
+Child can exist alone	           Child cannot exist alone
+Example: Department–Employee	   Example: House–Room

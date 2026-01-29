@@ -1,0 +1,11 @@
+2. Can an interface have instance variables?
+
+Answer: No.
+
+Why:
+
+All variables in an interface are implicitly:
+
+public static final
+
+So they belong to the interface, not to instances.

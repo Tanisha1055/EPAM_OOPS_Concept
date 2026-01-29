@@ -1,0 +1,4 @@
+Q1. Can we override static methods?
+
+Answer:
+❌ No – static methods are hidden, not overridden.

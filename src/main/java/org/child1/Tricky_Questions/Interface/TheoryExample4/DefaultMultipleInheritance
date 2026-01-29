@@ -1,0 +1,4 @@
+29. Why can interfaces have default methods but classes can’t have multiple inheritance?
+
+Answer:
+Default methods do not carry state, avoiding ambiguity.

@@ -1,0 +1,7 @@
+Q1. What is polymorphism?
+
+Expected:
+
+Ability of an object to take many forms
+Achieved via method overriding
+Resolved at runtime

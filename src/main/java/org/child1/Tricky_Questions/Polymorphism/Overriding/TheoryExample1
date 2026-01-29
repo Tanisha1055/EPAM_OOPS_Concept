@@ -1,0 +1,8 @@
+Q1. What is method overriding?
+
+Expected:
+
+Same method signature
+In subclass
+Runtime polymorphism
+Access modifier cannot be reduced

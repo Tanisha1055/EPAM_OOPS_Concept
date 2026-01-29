@@ -1,0 +1,29 @@
+🔹 Scenario 1 – Association
+
+Question:
+
+A Doctor treats a Patient. Both exist independently. What relationship is this?
+
+Answer:
+
+👉 Association
+
+Because:
+
+Doctor can exist without Patient
+
+Patient can exist without Doctor
+
+Code:
+
+class Doctor {
+    void treat(Patient p) {
+        System.out.println("Treating patient");
+    }
+}
+
+class Patient {
+    String name;
+}
+
+This is association because there is no ownership.”

@@ -1,0 +1,8 @@
+Q1. Difference between abstract class and interface?
+
+Abstract Class	           Interface
+Can have state	          No state (only constants)
+Can have constructors	  No constructors
+Single inheritance	      Multiple inheritance
+Methods can be concrete	  Default methods (Java 8+)
+

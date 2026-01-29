@@ -1,0 +1,30 @@
+🔹 Scenario 3 – Composition
+
+Question:
+
+A Car has an Engine. If car is destroyed, engine is useless. What relationship?
+
+Answer:
+
+👉 Composition
+
+Code:
+class Engine {
+    void start() {
+        System.out.println("Engine started");
+    }
+}
+
+class Car {
+    private Engine engine = new Engine(); // created inside
+
+    void drive() {
+        engine.start();
+        System.out.println("Car is moving");
+    }
+}
+
+
+👉 Interview line:
+
+“This is composition because engine is tightly coupled to car.”

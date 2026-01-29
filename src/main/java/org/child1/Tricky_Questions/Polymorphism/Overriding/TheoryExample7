@@ -1,0 +1,7 @@
+3. Can we override a static method?
+
+Answer: No (it is method hiding, not overriding).
+
+Why:
+Overriding depends on runtime polymorphism.
+Static methods are resolved at compile time.

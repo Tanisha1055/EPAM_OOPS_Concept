@@ -1,0 +1,7 @@
+Q2. Difference between Association and Aggregation?
+
+Association	                      Aggregation
+
+Uses-a	                          Has-a
+No ownership	                  Weak ownership
+Independent lifecycle	          Independent lifecycle

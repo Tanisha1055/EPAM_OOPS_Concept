@@ -1,0 +1,7 @@
+1. Can we overload a method by changing only the return type?
+
+Answer: No.
+
+Why:
+Method signature = name + parameter list.
+Return type is not considered for overloading.

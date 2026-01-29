@@ -1,0 +1,8 @@
+Q1. Difference between overloading and overriding?
+
+Overloading	                  Overriding
+
+Compile-time	              Runtime
+Same class	                  Parent-child
+Different parameters	      Same signature
+Increases readability	      Implements polymorphism

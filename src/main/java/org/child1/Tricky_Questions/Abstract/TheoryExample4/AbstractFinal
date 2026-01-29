@@ -1,0 +1,10 @@
+6. Can a class be both abstract and final?
+
+Answer: No.
+
+Why:
+
+abstract → must be extended
+
+final → cannot be extended
+Contradictory intent.

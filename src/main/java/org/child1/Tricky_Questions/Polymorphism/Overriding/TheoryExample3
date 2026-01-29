@@ -1,0 +1,4 @@
+Q1. Can we override a private method?
+
+Answer:
+❌ No – private methods are not visible to subclasses.

@@ -1,0 +1,6 @@
+9. Can this() and super() be used together in a constructor?
+
+Answer: No.
+
+Why:
+Constructor chaining must start with exactly one constructor call, and it must be the first statement.

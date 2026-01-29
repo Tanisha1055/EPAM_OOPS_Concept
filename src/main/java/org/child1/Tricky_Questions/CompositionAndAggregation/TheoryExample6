@@ -1,0 +1,27 @@
+🔹 Scenario 2 – Aggregation
+
+Question:
+
+A Department has Employees. If department is closed, employees still exist. What relationship?
+
+Answer:
+
+👉 Aggregation
+
+Code:
+class Employee {
+    String name;
+}
+
+class Department {
+    List<Employee> employees;
+
+    Department(List<Employee> employees) {
+        this.employees = employees;
+    }
+}
+
+
+👉 Interview line:
+
+“This is aggregation because employees have independent lifecycle.”

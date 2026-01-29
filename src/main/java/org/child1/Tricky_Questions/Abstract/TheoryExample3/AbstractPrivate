@@ -1,0 +1,7 @@
+5. Can an abstract method be private?
+
+Answer: No.
+
+Why:
+Abstract methods must be implemented by subclasses.
+private methods are not visible to subclasses.

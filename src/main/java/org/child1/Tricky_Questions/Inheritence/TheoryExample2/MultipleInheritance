@@ -1,0 +1,4 @@
+28. Why does Java not support multiple inheritance of classes?
+
+Answer:
+To avoid ambiguity (diamond problem) and complexity in state inheritance.

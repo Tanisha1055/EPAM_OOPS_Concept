@@ -1,0 +1,7 @@
+Q1. Can we achieve multiple inheritance in Java? How?
+
+Answer:
+
+No with classes (to avoid Diamond Problem)
+
+Yes using interfaces
