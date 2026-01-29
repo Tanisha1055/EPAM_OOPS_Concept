@@ -1,0 +1,6 @@
+Q24. Difference between upcasting and downcasting?
+
+Upcasting	                           Downcasting
+
+Parent ref = child obj	               Child ref = (Child) parent
+Safe	                               Risky

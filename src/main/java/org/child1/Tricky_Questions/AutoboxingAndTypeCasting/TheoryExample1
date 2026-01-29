@@ -1,0 +1,11 @@
+Q22. What is type casting?
+
+Expected:
+
+“Converting one data type into another.”
+
+Q23. Types of typecasting?
+
+Type	                      Example
+Widening	                  int → long
+Narrowing	                  double → int
