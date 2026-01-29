@@ -1,0 +1,6 @@
+23. Can a subclass constructor avoid calling superclass constructor?
+
+Answer: No.
+
+Why:
+If not explicitly called, super() is inserted automatically.
