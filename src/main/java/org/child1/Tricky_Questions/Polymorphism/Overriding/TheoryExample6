@@ -1,0 +1,5 @@
+Runtime Polymorphism (Dynamic Method Dispatch)
+
+Runtime polymorphism applies to methods, not fields.
+If a method is overridden in a subclass, the method that gets called is determined at runtime based on
+the actual object type, not the reference type.
