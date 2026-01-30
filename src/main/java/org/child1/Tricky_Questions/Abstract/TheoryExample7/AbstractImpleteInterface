@@ -1,0 +1,4 @@
+Can an abstract class implement an interface method partially?
+
+✅ Answer: Yes. An abstract class can provide an implementation for some methods of an interface and
+leave others abstract.
