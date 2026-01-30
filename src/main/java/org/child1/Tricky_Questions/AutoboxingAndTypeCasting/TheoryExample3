@@ -1,0 +1,62 @@
+Upcasting
+
+What is it?
+Upcasting means assigning a child class object to a parent class reference.
+
+Syntax:
+
+Parent ref = new Child();
+Implicit: No explicit cast needed.
+
+Why is it safe?
+
+Every child object is a parent object (inherits all parent features).
+You can always treat a child as its parent, but you only access parent methods/fields.
+
+Example:
+
+class Animal { void eat() {} }
+class Dog extends Animal { void bark() {} }
+
+Animal a = new Dog(); // Upcasting
+a.eat(); // Allowed
+// a.bark(); // Not allowed, Animal doesn't have bark()
+
+Downcasting
+
+What is it?
+
+Downcasting means assigning a parent class reference (that actually points to a child object) to a
+child class reference.
+
+Syntax:
+
+Child ref = (Child) parentRef;
+
+Explicit: You must use a cast.
+
+Why is it risky?
+
+The parent reference must actually point to a child object.
+If it doesn’t, you get a ClassCastException at runtime.
+
+Example:
+
+Animal a = new Dog(); // Upcasting
+Dog d = (Dog) a;      // Downcasting, safe because 'a' is actually a Dog
+d.bark();             // Allowed
+
+Animal a2 = new Animal();
+Dog d2 = (Dog) a2;    // Risky! a2 is not a Dog, throws ClassCastException
+Summary Table
+Aspect	                           Upcasting	                  Downcasting
+Syntax	                           Parent ref = new Child();	  Child ref = (Child) parentRef;
+Safety	                           Safe	                          Risky (may throw ClassCastException)
+Cast Needed	                       No	                          Yes
+Usage	                           Access parent features only	  Access child features (if safe)
+
+Key Points:
+
+Upcasting is always safe and is used for generalization (polymorphism).
+Downcasting is only safe if the object is actually an instance of the child class; otherwise, it fails
+at runtime.
