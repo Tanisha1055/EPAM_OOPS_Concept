@@ -1,0 +1,11 @@
+Constructors are used to initialize objects at the time of creation.”
+
+Expand:
+
+Set initial values
+Ensure object is in valid state
+Perform setup logic
+
+Example line:
+
+“Without constructor, object would have only default values.”
